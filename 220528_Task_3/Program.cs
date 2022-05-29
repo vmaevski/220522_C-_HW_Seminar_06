@@ -44,7 +44,7 @@ void PrintArray(int[,] array)
     Console.WriteLine();
 }
 
-int[,] array_1 = RandomArray(5, 5, 0, 10);
-PrintArray(array_1);
-int[,] copy_array_1 = CopyArray(array_1);
-PrintArray(copy_array_1);
+int[,] array = RandomArray(5, 5, 0, 10);
+PrintArray(array);
+int[,] copy_array = CopyArray(array);
+PrintArray(copy_array);
